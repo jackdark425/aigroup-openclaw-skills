@@ -1,12 +1,12 @@
 ---
 name: aigroup-market-mcp
-description: Use the `aigroup-market-mcp` server for China-market and Tushare-oriented workflows including A-share data, index data, sector and macro snapshots, fund flows, basic company information, convertible bonds, margin trading, block trades, and 7x24 finance news. Trigger when the task is centered on mainland China market structure, local market breadth, capital flow, or China-specific securities datasets.
+description: Use `aigroup-market-mcp` for China-market and Tushare-oriented data. Route A-share, index, sector, fund-flow, margin, block-trade, dragon-tiger, fund, convertible-bond, macro, and 7x24 finance-news requests here.
 homepage: https://github.com/jackdark425/aigroup-market-mcp
 ---
 
 # Market MCP
 
-Route China-market data requests to `aigroup-market-mcp`.
+Use `aigroup-market-mcp` for China-market datasets and market-structure requests.
 
 ## Route
 
@@ -26,7 +26,7 @@ Route China-market data requests to `aigroup-market-mcp`.
 3. Keep the reply localized. Name the exchange, index family, or China-market convention when relevant.
 4. If the user mixes China and global assets, use this skill for the China leg and another market skill for the non-China leg.
 
-## Common Jobs
+## Requests
 
 - Pull A-share or Hong Kong or US company performance where exposed by the server.
 - Explain what a CSI index contains or how an index moved.

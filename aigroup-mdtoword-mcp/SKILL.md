@@ -1,12 +1,12 @@
 ---
 name: aigroup-mdtoword-mcp
-description: Use the `aigroup-mdtoword-mcp` server to convert Markdown into polished Word documents with `.docx` output, advanced styling, tables, formulas, page layout, headers and footers, and template-like resources. Trigger when the user wants a report, memo, brief, proposal, or other Markdown-authored content delivered as a professional Word file.
+description: Use `aigroup-mdtoword-mcp` to convert Markdown into `.docx`. Route Markdown file conversion, generated Markdown conversion, table-to-Markdown preprocessing, formula handling, table handling, and page-layout requests here.
 homepage: https://github.com/jackdark425/aigroup-mdtoword-mcp
 ---
 
 # Markdown to Word MCP
 
-Route Markdown-to-`.docx` conversion to `aigroup-mdtoword-mcp`.
+Use `aigroup-mdtoword-mcp` for Markdown-to-`.docx` conversion.
 
 ## Route
 
@@ -25,7 +25,7 @@ Route Markdown-to-`.docx` conversion to `aigroup-mdtoword-mcp`.
 4. If formulas, tables, headers, footers, or local images are important, mention that explicitly before conversion.
 5. Return the path to the generated `.docx` and summarize any formatting assumptions.
 
-## Common Jobs
+## Requests
 
 - Convert a finished Markdown note, report, or memo into `.docx`.
 - Produce a polished Word deliverable from generated Markdown in the same run.

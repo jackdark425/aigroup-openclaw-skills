@@ -1,12 +1,12 @@
 ---
 name: aigroup-fmp-mcp
-description: Use Financial Modeling Prep market data through the `aigroup-fmp-mcp` server for public-company research, quote checks, market breadth snapshots, sector performance, historical charts, basic technical indicators, analyst targets, and financial statement retrieval. Trigger when the task is about listed equities, company profiles, fundamentals, market movers, S&P 500 constituents, earnings calendars, or quick valuation context.
+description: Use `aigroup-fmp-mcp` for listed-equity data from Financial Modeling Prep. Route quote, profile, financial-statement, key-metric, ratio, market-mover, sector, chart, technical-indicator, analyst-target, and calendar requests here.
 homepage: https://github.com/jackdark425/aigroup-fmp-mcp
 ---
 
 # FMP MCP
 
-Route listed-equity quote, profile, statement, and quick market-breadth work to `aigroup-fmp-mcp`.
+Use `aigroup-fmp-mcp` for listed-equity quote, profile, statement, metric, and market snapshot requests.
 
 ## Route
 
@@ -25,7 +25,7 @@ Route listed-equity quote, profile, statement, and quick market-breadth work to 
    - `get_technical_indicator_rsi`, `get_technical_indicator_sma`, `get_technical_indicator_ema`
 5. State dates clearly for quotes, charts, and calendars.
 
-## Common Jobs
+## Requests
 
 - Research a public company with current quote, profile, and recent financial statements.
 - Compare a small peer set on margins, valuation, or balance-sheet strength.

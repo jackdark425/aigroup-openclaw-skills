@@ -1,6 +1,6 @@
 interface:
   display_name: "AIGroup Market MCP"
-  short_description: "China market data, flows, macro, and fund workflows"
+  short_description: "China-market data, flows, indices, and macro"
   icon_small: "./assets/logo.svg"
   icon_large: "./assets/logo.svg"
   brand_color: "#B45309"
