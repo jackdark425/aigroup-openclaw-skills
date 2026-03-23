@@ -1,0 +1,14 @@
+interface:
+  display_name: "Market MCP"
+  short_description: "China market data, flows, macro, and fund workflows"
+  default_prompt: "Use $aigroup-market-mcp to pull China market data, sector moves, and fund flow context."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "aigroup-market-mcp"
+      description: "China-market and Tushare-oriented data server"
+      transport: "stdio"
+
+policy:
+  allow_implicit_invocation: true

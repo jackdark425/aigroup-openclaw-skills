@@ -1,0 +1,14 @@
+interface:
+  display_name: "Markdown to Word MCP"
+  short_description: "Convert Markdown into polished Word deliverables"
+  default_prompt: "Use $aigroup-mdtoword-mcp to turn Markdown into a polished .docx document with styling and formulas."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "aigroup-mdtoword-mcp"
+      description: "Markdown to Word conversion server with styling and formula support"
+      transport: "stdio"
+
+policy:
+  allow_implicit_invocation: true
