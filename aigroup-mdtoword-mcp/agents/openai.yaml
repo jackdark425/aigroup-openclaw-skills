@@ -1,5 +1,5 @@
 interface:
-  display_name: "Markdown to Word MCP"
+  display_name: "AIGroup Markdown to Word MCP"
   short_description: "Convert Markdown into polished Word deliverables"
   default_prompt: "Use $aigroup-mdtoword-mcp to turn Markdown into a polished .docx document with styling and formulas."
 

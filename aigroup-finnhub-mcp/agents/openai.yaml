@@ -1,5 +1,5 @@
 interface:
-  display_name: "Finnhub MCP"
+  display_name: "AIGroup Finnhub MCP"
   short_description: "News, sentiment, filings, and event-driven market intel"
   default_prompt: "Use $aigroup-finnhub-mcp to analyze a ticker with news, sentiment, filings, and technical signals."
 

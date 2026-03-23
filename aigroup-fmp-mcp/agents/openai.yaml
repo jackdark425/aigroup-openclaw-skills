@@ -1,5 +1,5 @@
 interface:
-  display_name: "FMP MCP"
+  display_name: "AIGroup FMP MCP"
   short_description: "Public market quotes, financials, and sector context"
   default_prompt: "Use $aigroup-fmp-mcp to research a public company with quotes, financials, and market context."
 

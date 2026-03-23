@@ -17,7 +17,7 @@ publish_skill() {
     --tags "${TAGS}"
 }
 
-publish_skill "aigroup-fmp-mcp" "FMP MCP"
-publish_skill "aigroup-finnhub-mcp" "Finnhub MCP"
-publish_skill "aigroup-market-mcp" "Market MCP"
-publish_skill "aigroup-mdtoword-mcp" "Markdown to Word MCP"
+publish_skill "aigroup-fmp-mcp" "AIGroup FMP MCP"
+publish_skill "aigroup-finnhub-mcp" "AIGroup Finnhub MCP"
+publish_skill "aigroup-market-mcp" "AIGroup Market MCP"
+publish_skill "aigroup-mdtoword-mcp" "AIGroup Markdown to Word MCP"

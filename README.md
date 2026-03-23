@@ -13,6 +13,8 @@ Each skill folder contains:
 - `agents/openai.yaml` for OpenClaw/ClawHub UI metadata
 - `references/capabilities.md` for the MCP capability map
 
+Published display names use the `AIGroup` prefix to avoid implying official affiliation with upstream data providers.
+
 ## Publish
 
 Log in to ClawHub, then publish all four skills:

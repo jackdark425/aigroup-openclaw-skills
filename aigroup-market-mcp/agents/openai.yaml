@@ -1,5 +1,5 @@
 interface:
-  display_name: "Market MCP"
+  display_name: "AIGroup Market MCP"
   short_description: "China market data, flows, macro, and fund workflows"
   default_prompt: "Use $aigroup-market-mcp to pull China market data, sector moves, and fund flow context."
 
