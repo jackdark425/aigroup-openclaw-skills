@@ -1,0 +1,17 @@
+interface:
+  display_name: "AIGroup PrimeMatrixData MCP"
+  short_description: "China company-intelligence and lead-screening operations"
+  icon_small: "./assets/logo.svg"
+  icon_large: "./assets/logo.svg"
+  brand_color: "#B45309"
+  default_prompt: "Use $aigroup-primematrixdata-mcp for China company-intelligence tasks such as name resolution, profiles, risk, shareholder, finance, or hiring signals."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "PrimeMatrixData-stdio"
+      description: "PrimeMatrixData company-intelligence server"
+      transport: "stdio"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,17 @@
+interface:
+  display_name: "AIGroup Tianyancha MCP"
+  short_description: "China enterprise registration and risk screening"
+  icon_small: "./assets/logo.svg"
+  icon_large: "./assets/logo.svg"
+  brand_color: "#B45309"
+  default_prompt: "Use $aigroup-tianyancha-mcp when you need China company registration, legal-risk, or risk-screening context."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "Tianyancha"
+      description: "Tianyancha enterprise verification and risk server"
+      transport: "streamable-http"
+
+policy:
+  allow_implicit_invocation: true

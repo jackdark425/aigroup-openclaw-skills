@@ -6,6 +6,8 @@ OpenClaw/ClawHub skill wrappers for these MCP servers maintained by `jackdark425
 - `aigroup-finnhub-mcp`
 - `aigroup-market-mcp`
 - `aigroup-mdtoword-mcp`
+- `aigroup-tianyancha-mcp`
+- `aigroup-primematrixdata-mcp`
 
 Each skill folder contains:
 
@@ -16,12 +18,42 @@ Each skill folder contains:
 
 Published display names use the `AIGroup` prefix to avoid implying official affiliation with upstream data providers.
 
+## Banker lead-discovery bundle
+
+This repo also ships an OpenClaw-compatible Claude bundle:
+
+- `bundles/aigroup-lead-discovery-openclaw`
+
+It combines:
+
+- four banker lead-discovery SOP skills:
+  - `client-initial-screening`
+  - `company-event-scan`
+  - `key-account-briefing`
+  - `weekly-lead-watchlist`
+- two enterprise-intelligence MCP connectors:
+  - `Tianyancha`
+  - `PrimeMatrixData-stdio`
+
+Build the bundle locally with:
+
+```bash
+cd aigroup-openclaw-skills
+python3 scripts/build_openclaw_bundles.py
+```
+
+Then install it into OpenClaw with:
+
+```bash
+openclaw plugins install ./bundles/aigroup-lead-discovery-openclaw
+```
+
 ## Publish
 
 Log in to ClawHub, then publish all four skills:
 
 ```bash
-cd /Users/jackdark/codex/openclaw-skills
+cd aigroup-openclaw-skills
 npx -y clawhub login
 ./publish-all.sh 0.1.0
 ```
